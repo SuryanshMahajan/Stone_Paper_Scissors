@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="./assets/images/rock-paper-scissors.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone Paper Scissors</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <div id="choices">
+        <div class="choice" id="Rock">
+            <img src="./assets/images/Rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="./assets/images/Paper1.png" alt="Paper">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="./assets/images/Scissors.jpg" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <div id="msg">Play your move</div>
+    </div>
+
     <script src="./scripts/index.js"></script>
 </body>
 </html>
